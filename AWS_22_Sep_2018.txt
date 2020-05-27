@@ -1,0 +1,52 @@
+ACL - Access Control List
+
+Object:
+------
+
+1) Object ACL
+
+Bucket:
+-------
+1) Bucket ACL - list/write permission
+2) Bucket Policy ( JSON )
+
+Permission
+-----------
+*Me
+*Public
+*Authenticated Users
+
+Policy Generator - 4 steps involved
+
+1) Wheather allow/deny
+2) Principal
+3) Actions ( eg: reading,writing)
+4) Resource ( eg: which bucket/file/folder)
+
+
+Storage Types:
+--------------
+1) Standard
+2) Std - Infrequent access
+3) Std - One Zone IA
+4) Reduced Redundancy Storage
+
+/root - both ( UI & CLI ) 
+|-- Deepak - UI ( UName & PWD) 
+|-- Mukesh - CLI ( Access Key & Secret Access Key) 
+|-- Naga - CLI  ( Access Key & Secret Access Key)
+         - UI (UName & PWD ) 
+
+Command prompt will not understand AWS commands, So you need to install the below softwares.
+
+Windows :- MSI - Installer
+Linux :- aws-cli
+
+pip install awscli
+
+aws configure - For login user using CLI
+
+aws region code can be downloaded from Internet
+
+
+awss3cli - For all the commands

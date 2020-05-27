@@ -1,0 +1,35 @@
+
+j@NxS.3MwZ6
+-----------
+Every file/objects will have a link
+
+S3 bucket - The name must be unique across "ALL ACCOUNTS"
+
+1) Buckets
+2) Objects/Folders
+3) # 100 buckets
+4) Unlimited Storage in each bucket
+5) 5TB - Max
+6) All types of objects
+7) Encrypt your objects
+8) Logging
+9) Audit - Cloud Trail
+10) web server
+11) Security - Object Level : Object ACL( Access Control List), Bucket Level : Bucket ACL - List/Write,Bucket Policies - To give access to a group of files/folders
+
+Permissions :
+------------
+1.Me
+2.Everyone
+3.Authenticated Users 
+
+Amazon provides tools called policy generator to create policy in JSON format
+
+Versioning is possible
+
+Policy Generator
+----------------
+1) allow/deny
+2) principle
+3) actions
+4) resource

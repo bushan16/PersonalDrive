@@ -1,0 +1,22 @@
+Andhrabank:09223011300 
+syndicate bank:09664552255
+punjab national bank:18001802222 
+bank of india:02233598548 
+kenara bank:09289292892 
+central bank of india:09222250000 
+state bank of hyd:18004251825
+indian bank:09289592895
+sbi:1800112211,18004253800 
+union bank of india:09223009292 
+uco bank:09278792787 
+axis bank:09225892258
+alhadha bank:09224150150
+bank of baroda:09223011311
+dhanalakshmi bank:08067747700
+idbi bank:09212993399
+karoor vysya bank:18802001918 
+kotak mahindhra bank:18002740110
+icici bank:02230256767 
+hdfc bank:18002703333
+karnataka bank:18004251445 
+vijaya bank:18002665555

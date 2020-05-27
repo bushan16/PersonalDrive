@@ -1,0 +1,52 @@
+Mount volumes in Unix
+---------------------
+
+a) Create a directory /mydir eg: /goutham
+mkdir goutham
+
+b) Mount the volume to the directory
+    /mtdir <--- /dev/sdf
+mount /dev/sdf/fita
+
+c) Format the raw volume
+   mkfs -t ext4 /dev/sdf
+
+run the command to mount : mount /dev/sdf /goutham/
+
+check the space using: df -h
+
+vi sample.txt
+
+snapshot is not zone specific
+
+1) resize to  files system which is not formatted out of 3 GB
+
+resize2fs /dev/sdf
+
+
+Snapshots - Incremental Backup
+
+----------------- Simple Storage Service -----------------
+
+Phython scripts can be used to implement the S3 buckets simillar to of the 
+
+
+1) Create a S3 bucket
+
+2) Name must be unique
+
+3) Objects/Folder can be created in S3 bucket
+
+5) Unlimited objects inside a bucket
+
+6) maximum object size is 5 TB
+
+7) 100 buckets is limit
+
+
+Versioning : key - value
+Logging --> Can be saved in S3
+Cloud Trail - Auditing
+S3 bucket can be made as webserver ( only static webpages) 
+Requestor pays
+

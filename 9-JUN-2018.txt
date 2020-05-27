@@ -1,0 +1,16 @@
+IAM - (Identity Access Management)
+
+
+Access Key ID:
+AKIAI7VG5VJPMLWW3TIA
+Secret Access Key:
+q6MIFqk5XALbfgBYETJWNYpThKB+yRA4JE0JMr5p
+
+
+
+Glacier
+-------
+
+1) Via Lifecycle management in S3 - ( S3 bucket to glacier)
+2) CLI - File moving to Local machine to glacier
+
